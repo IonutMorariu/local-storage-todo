@@ -81,6 +81,15 @@ body {
     font-size: 1.3rem;
 }
 
+.task__item--text.done {
+    text-decoration: line-through;
+    color: #727272;
+}
+
+.task__remove {
+    cursor: pointer;
+}
+
 hr {
     display: block;
     height: 1px;

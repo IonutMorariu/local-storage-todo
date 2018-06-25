@@ -18,13 +18,9 @@
         <hr>
         <div class="tasks">
             <div class="tasks__container">
-                <div class="tasks__item">
-                    <input type="checkbox" name="" id="task-1">
-                    <label for="task-1">Buy Milk</label>
-                    <span class="task__remove">❌</span>
-                </div>
 
             </div>
+
             <hr>
 
             <div class="task__add">
@@ -36,6 +32,13 @@
 
 </body>
 
+<div style="display:none">
+    <div id="tasks__item--component" class="tasks__item">
+        <input type="checkbox" name="" id="task-1" class="task__item--checkbox">
+        <label for="task-1" class="task__item--text">Buy Milk</label>
+        <span class="task__remove">❌</span>
+    </div>
+</div>
 <script src="main.js"></script>
 
 </html>
